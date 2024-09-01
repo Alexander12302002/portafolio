@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.info-cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-cv h1{
+    font-size: 40px;
+    margin: 10px;
+    width: 400px;
+    color: #fff;
+}
+
+.info-cv .name{
+    color: #47d16e;
+}
+
+.info-cv .role{
+    color: #47d16e;
+}
+
+.info-cv p{
+    margin: 10px;
+    width: 300px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.info-cv .buttons{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.info-cv .buttons .proyectos{
+    margin: 5px;
+}
+
+.info-cv .buttons .proyectos button{
+    height: 40px;
+    width: 130px;
+    border: none;
+    background: #47d16e;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info-cv .buttons .Cv{
+    margin: 5px;
+}
+.info-cv .buttons .Cv button{
+    height: 40px;
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info-cv .buttons .Cv button a{
+    text-decoration: none;
+}
