@@ -12,13 +12,13 @@ function Navegacion() {
                 </div>
                 <div className='items'>
                     <ul>
-                        <li><a href='/'>Inicio</a></li>
-                        <li><a href='/AboutMe'>Acerca de mi</a></li>
-                        <li><a href='/Projects'>Proyectos</a></li>
+                        <li><a href='/portafolio/'>Inicio</a></li>
+                        <li><a href='/portafolio/AboutMe'>Acerca de mi</a></li>
+                        <li><a href='/portafolio/Projects'>Proyectos</a></li>
                     </ul>
                 </div>
                 <div className='Contact-me'>
-                    <a href='/ContactMe'><button>Contactame</button></a>
+                    <a href='/portafolio/ContactMe'><button>Contactame</button></a>
                 </div>
             </nav>
         </div>

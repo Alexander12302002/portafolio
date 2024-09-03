@@ -9,7 +9,9 @@ import reactSvg from '../assets/react.svg'
 import railwaySvg from '../assets/railway.svg'
 import litSvg from '../assets/lit.svg'
 import flaskSvg from '../assets/flask.svg'
-
+import garden from '../../public/img/Garden.png'
+import cineApp from '../../public/img/cineApp.png'
+import CampusShop from '../../public/img/CampusShop.png'
 
 
 function Project() {
@@ -49,7 +51,7 @@ function Project() {
                             </div>
                     </div>
                     <div className='img-proyect'>
-                        <img src='../../public/img/CineApp.png'></img>
+                        <img src={cineApp}></img>
                     </div>
                 </div>
                 <div className='project'>  
@@ -77,7 +79,7 @@ function Project() {
                             </div>
                     </div>
                     <div className='img-proyect'>
-                        <img src='../../public/img/Garden.png'></img>
+                        <img src={garden}></img>
                     </div>
                 </div>
                 <div className='project'>  
@@ -105,7 +107,7 @@ function Project() {
                             </div>
                     </div>
                     <div className='img-proyect'>
-                        <img src='../../public/img/CampusShop.png'></img>
+                        <img src={CampusShop}></img>
                     </div>
                 </div>
             </div>
