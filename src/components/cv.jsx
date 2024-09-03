@@ -13,7 +13,7 @@ function Cv() {
             <p>Este es mi portafolio y CV, puedes ver mas informacion sobre mi .¡Espero te guste!</p>
             <div className='buttons'> 
                 <div className='proyectos'>
-                    <a href='#'><button>Ver proyectos</button></a>
+                    <a href='/Projects'><button>Ver proyectos</button></a>
                 </div>
                 <div className='Cv'>
                     <a href='../../public/doc/Cv.pdf' download className='button-link'>

@@ -13,9 +13,9 @@
 }
 
 .info-cv h1{
-    font-size: 40px;
+    font-size: 50px;
     margin: 10px;
-    width: 400px;
+    width: 500px;
     color: #fff;
 }
 
@@ -30,7 +30,7 @@
 .info-cv p{
     margin: 10px;
     width: 300px;
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
 }
 

@@ -1,13 +1,12 @@
 .container-aboutMe{
     display: flex;
-    padding: 20px;
-    gap: 40px;
+    padding: 10px;
     flex-direction: column;
     background: #171718;
 }
 
 .container-init{
-    gap: 40px;
+    height: 90vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -19,7 +18,7 @@
     border-radius: 10px;
 }
 
-.container-init .aboutMe{
+.container-init .aboutMe, .photo{
     gap: 30px;
     color: #fff;    
     width: 400px;
@@ -28,20 +27,21 @@
     justify-content: center;
 }
 
+.container-init .photo{
+    display: flex;
+    align-items: center;
+}
+
 .aboutMe h1{
     margin: 10px;
 }
 
 .aboutMe p{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .aboutMe h5{
     color: #47d16e;
-}
-
-.skills{
-    height: 90vh;
 }
 
 .skills img{
@@ -53,15 +53,21 @@
 .programming{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .programming .container-name-skills{
     display: flex;
     justify-content: center;
     color: #47d16e;
+    height: 50px;
+}
+
+.skills{
+    height: 100vh;
 }
 
 .img-skills{
@@ -77,7 +83,7 @@
 .databases, 
 .frameworks, 
 .tools{
-    width: 300px;
+    width: 400px;
     background: #1f1f21;
     color: #fff;
 }
@@ -98,7 +104,7 @@
 
 .vision-and-mission{
     display: flex;
-    height: 90vh;
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
