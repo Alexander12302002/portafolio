@@ -1,6 +1,7 @@
 .container-main{
     display: flex;         
     flex-direction: column;
+    background: #171718;
 }
 
 .horizontal-bar{

@@ -1,24 +1,129 @@
 .container-aboutMe{
     display: flex;
-    justify-content: center;
     padding: 20px;
     gap: 40px;
+    flex-direction: column;
+    background: #171718;
 }
 
-.container-aboutMe .photo img{
+.container-init{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-init .photo img{
     width: 300px;
     height: 400px;
+    border-radius: 10px;
 }
 
-.container-aboutMe .aboutMe{
+.container-init .aboutMe{
     gap: 30px;
     color: #fff;    
-    width: 300px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.container-aboutMe .aboutMe h1, p, h5{
-    padding: 10px;
+.aboutMe h1{
+    margin: 10px;
+}
+
+.aboutMe p{
+    font-size: 16px;
+}
+
+.aboutMe h5{
+    color: #47d16e;
+}
+
+.skills{
+    height: 90vh;
+}
+
+.skills img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.programming{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.programming .container-name-skills{
+    display: flex;
+    justify-content: center;
+    color: #47d16e;
+}
+
+.img-skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-skills 
+.languages, 
+.databases, 
+.frameworks, 
+.tools{
+    width: 300px;
+    background: #1f1f21;
+    color: #fff;
+}
+
+.container-name{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin: 20px;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vision-and-mission{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision, 
+.mission{
+    margin: 10px;
+    background: #1f1f21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    width: 500px;
+    height: 200px;
+}
+
+.vision-and-mission h1,
+.vision h1, 
+.mission h1{
+    color: #47d16e; 
+    margin: 10px;
+}
+
+.vision p, 
+.mission p{
+    margin: 10px;
 }
