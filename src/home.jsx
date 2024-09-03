@@ -8,7 +8,7 @@ import Contact from './components/contact'
 function Home() {
 
   return (
-    <Router>
+    <Router basename="/portafolio/">
             <Routes>
               <Route path="/" element={<Cv/>}/>
               <Route path="/AboutMe" element={<AboutMe />} />
