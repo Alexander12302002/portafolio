@@ -6,6 +6,10 @@
     background: #171718;
 }
 
+.container a{
+    text-decoration: none;
+}
+
 .info-cv{
     display: flex;
     flex-direction: column;
