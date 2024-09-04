@@ -52,11 +52,11 @@
 
 .programming{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     height: 100vh;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .programming .container-name-skills{

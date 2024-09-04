@@ -6,12 +6,11 @@ import mongodbSvg from '../assets/mongodb.svg'
 import ExpressSvg from '../assets/express.svg'
 import nodejs from '../assets/node-js.svg'
 import reactSvg from '../assets/react.svg'
-import railwaySvg from '../assets/railway.svg'
 import litSvg from '../assets/lit.svg'
 import flaskSvg from '../assets/flask.svg'
+import campusShop from '../../public/img/CampusShop.png'
+import cineApp from '../../public/img/CineApp.png'
 import garden from '../../public/img/Garden.png'
-import cineApp from '../../public/img/cineApp.png'
-import CampusShop from '../../public/img/CampusShop.png'
 
 
 function Project() {
@@ -107,7 +106,7 @@ function Project() {
                             </div>
                     </div>
                     <div className='img-proyect'>
-                        <img src={CampusShop}></img>
+                        <img src={campusShop}></img>
                     </div>
                 </div>
             </div>
